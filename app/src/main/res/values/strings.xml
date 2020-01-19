@@ -1,0 +1,68 @@
+<resources>
+
+	<string name="app_name">Braille Keyboard</string>
+	<string name="brailleIME_label">Braille Keyboard</string>
+
+	<string name="brailleIME_settings_label">Braille Keyboard Settings</string>
+
+	<string name="dot1input">Dot 1</string>
+	<string name="dot2input">Dot 2</string>
+	<string name="dot3input">Dot 3</string>
+	<string name="dot4input">Dot 4</string>
+	<string name="dot5input">Dot 5</string>
+	<string name="dot6input">Dot 6</string>
+	<string name="submit_button">Submit</string>
+	<string name="cheat_button">Cheat</string>
+	<string name="dots">Dots</string>
+
+	<string name="settings_database">Change Braille Code</string>
+
+	<string name="links">
+		Made with love by Luke Needham ♥
+		\nIf you have any problems, questions or suggestions, please send me an email:
+		\nbrailletutorapp@gmail.com
+		\n\nCheck out Brailliac\'s other apps!
+		\nbrailliac.com
+		\n\nFollow Brailliac on Facebook:
+		\nhttps://www.facebook.com/brailletutor
+	</string>
+
+	<string name="instructions">Swipe the keyboard</string>
+
+	<string name="instructionsArrows">
+		→
+		\n←
+		\n↑
+		\n↓
+	</string>
+
+	<string name="instructionsText">
+		to input
+		\nto backspace
+		\nto open settings
+		\nto switch between Cell mode and Auto-translate mode
+	</string>
+
+	<string name="set_type_order_instructions">Drag the symbol types into the order in which they should be shown as predictions</string>
+	<string name="first">First</string>
+	<string name="last">Last</string>
+	<string name="change_size">CHANGE SIZE</string>
+	<string name="show_cell_as_prediction">Show cell as prediction</string>
+	<string name="order_predictions_mode">Order predictions starting with:</string>
+	<string name="change_prediction_ordering">CHANGE PREDICTION ORDERING</string>
+	<string name="recto_verso_mode">Recto-verso mode</string>
+	<string name="obey_braille_usage_rules">Obey Braille usage rules</string>
+	<string name="auto_space_standalone">Automatically add a space after Standalone symbols</string>
+	<string name="always_show_predictions">Always show predictions</string>
+	<string name="back">back</string>
+	<string name="setup_step_1">1 - Add Keyboard in Settings</string>
+	<string name="setup_step_2">2 - Set current keyboard</string>
+
+	<string-array name="autoFillBrailleMode">
+		<item>Simplest</item>
+		<item>Most complex</item>
+		<item>Longest</item>
+		<item>Custom</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,48 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+>
+
+	<com.lukeneedham.braillekeyboard.braillekeyboardview.BrailleDotView
+		android:id="@+id/dot1"
+		style="@style/brailleButton"
+		android:contentDescription="@string/dot1input"
+	/>
+
+    <com.lukeneedham.braillekeyboard.braillekeyboardview.BrailleDotView
+        android:id="@+id/dot2"
+        style="@style/brailleButton"
+        android:accessibilityTraversalAfter="@+id/dot1"
+        android:contentDescription="@string/dot2input"
+    />
+
+    <com.lukeneedham.braillekeyboard.braillekeyboardview.BrailleDotView
+        android:id="@+id/dot3"
+        style="@style/brailleButton"
+		android:accessibilityTraversalAfter="@+id/dot2"
+        android:contentDescription="@string/dot3input"
+    />
+
+    <com.lukeneedham.braillekeyboard.braillekeyboardview.BrailleDotView
+        android:id="@+id/dot4"
+        style="@style/brailleButton"
+		android:accessibilityTraversalAfter="@+id/dot3"
+        android:contentDescription="@string/dot4input"
+    />
+
+    <com.lukeneedham.braillekeyboard.braillekeyboardview.BrailleDotView
+        android:id="@+id/dot5"
+        style="@style/brailleButton"
+		android:accessibilityTraversalAfter="@+id/dot4"
+        android:contentDescription="@string/dot5input"
+    />
+
+    <com.lukeneedham.braillekeyboard.braillekeyboardview.BrailleDotView
+        android:id="@+id/dot6"
+        style="@style/brailleButton"
+		android:accessibilityTraversalAfter="@+id/dot5"
+        android:contentDescription="@string/dot6input"
+    />
+
+</RelativeLayout>

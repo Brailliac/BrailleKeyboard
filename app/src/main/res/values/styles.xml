@@ -1,0 +1,38 @@
+<resources>
+
+	<style name="brailleButton">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">0dp</item>
+		<item name="elevation">1dp</item>
+		<item name="android:padding">@dimen/brailledotpadding</item>
+	</style>
+
+	<style name="settingsOptionItemText">
+		<item name="android:textSize">15sp</item>
+		<item name="android:textColor">@color/textColor</item>
+	</style>
+
+	<style name="genericButton">
+		<item name="android:background">@color/colorAccent</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:textSize">15sp</item>
+
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">55dp</item>
+	</style>
+
+	<style name="brailleKeyboard">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginTop">10dp</item>
+		<item name="android:layout_marginBottom">10dp</item>
+		<item name="android:id">@id/keyboard</item>
+	</style>
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+</resources>

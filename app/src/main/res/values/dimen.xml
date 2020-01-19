@@ -1,0 +1,9 @@
+<resources>
+    <dimen name = "brailledotpadding">2dp</dimen>
+    <dimen name = "inputsidebutton_corner">40dp</dimen>
+    <dimen name = "inputbottombutton_corner">50dp</dimen>
+    <dimen name = "set_type_order_item_side_margin">8dp</dimen>
+    <dimen name = "set_type_order_item_vertical_margin">3dp</dimen>
+    <dimen name = "set_type_order_item_side_padding">10dp</dimen>
+	<dimen name = "set_type_order_item_vertical_padding">4dp</dimen>
+</resources>

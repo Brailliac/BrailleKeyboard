@@ -1,0 +1,52 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	>
+
+		<com.lukeneedham.braillekeyboard.braillekeyboardview.Side_LeftInputButton android:id="@+id/leftInputButton"
+																				  android:layout_width="0dp"
+																				  android:layout_height="wrap_content"
+																				  android:layout_alignBottom="@+id/gridContainer"
+																				  android:layout_alignParentLeft="true"
+																				  android:layout_alignTop="@+id/gridContainer"
+																				  android:contentDescription="@string/cheat_button"
+		/>
+
+		<LinearLayout android:id="@+id/gridContainer" android:layout_width="match_parent"
+					  android:layout_height="wrap_content"
+					  android:layout_marginLeft="5dp"
+					  android:layout_marginRight="5dp"
+					  android:layout_toLeftOf="@+id/rightInputButton"
+					  android:layout_toRightOf="@+id/leftInputButton"
+					  android:accessibilityTraversalAfter="@+id/leftInputButton"
+
+					  android:gravity="center"
+		>
+
+			<com.lukeneedham.braillekeyboard.braillekeyboardview.BrailleGridView android:id="@+id/brailleGrid"
+																				 android:layout_width="wrap_content"
+																				 android:layout_height="wrap_content"
+			/>
+
+		</LinearLayout>
+
+		<com.lukeneedham.braillekeyboard.braillekeyboardview.Side_RightInputButton android:id="@+id/rightInputButton"
+																				   android:layout_width="0dp"
+																				   android:layout_height="wrap_content"
+																				   android:layout_alignBottom="@+id/gridContainer"
+																				   android:layout_alignParentRight="true"
+																				   android:layout_alignTop="@+id/gridContainer"
+																				   android:accessibilityTraversalAfter="@+id/gridContainer"
+																				   android:contentDescription="@string/submit_button"
+		/>
+
+	</RelativeLayout>
+
+</LinearLayout>

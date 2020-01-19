@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#605293</color>
+	<color name="colorPrimaryDark">#3F3075</color>
+	<color name="colorAccent">#A75486</color>
+
+	<color name="leftInputButton">#9D9DBD</color>
+	<color name="rightInputButton">#99CCFF</color>
+
+	<color name="keyboardBackground">#ffffff</color>
+
+	<color name="transparent">#00ffffff</color>
+
+	<color name="white">#ffffff</color>
+	<color name="black">#000000</color>
+
+	<color name="predictionBarSeparator">#999999</color>
+	<color name="predictionBarBackground">#dddddd</color>
+
+	<color name="inputcells_bg">#eeeeee</color>
+
+	<color name="practiseCard">#99ffffff</color>
+	<color name="secondary_white">#eeeeee</color>
+
+	<color name="textColor">#000000</color>
+	<color name="textColorSecondary">#222222</color>
+
+	<color name="textColorTertiary">#888888</color>
+
+	<color name="keyboardPreviewTitleBackground">#666666</color>
+	<color name="keyboardPreviewTitle">#eeeeee</color>
+
+</resources>

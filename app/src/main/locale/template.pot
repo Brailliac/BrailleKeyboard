@@ -1,0 +1,179 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-01-19 18:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+msgctxt "app_name"
+msgid "Braille Keyboard"
+msgstr ""
+
+msgctxt "brailleIME_label"
+msgid "Braille Keyboard"
+msgstr ""
+
+msgctxt "brailleIME_settings_label"
+msgid "Braille Keyboard Settings"
+msgstr ""
+
+msgctxt "dot1input"
+msgid "Dot 1"
+msgstr ""
+
+msgctxt "dot2input"
+msgid "Dot 2"
+msgstr ""
+
+msgctxt "dot3input"
+msgid "Dot 3"
+msgstr ""
+
+msgctxt "dot4input"
+msgid "Dot 4"
+msgstr ""
+
+msgctxt "dot5input"
+msgid "Dot 5"
+msgstr ""
+
+msgctxt "dot6input"
+msgid "Dot 6"
+msgstr ""
+
+msgctxt "submit_button"
+msgid "Submit"
+msgstr ""
+
+msgctxt "cheat_button"
+msgid "Cheat"
+msgstr ""
+
+msgctxt "dots"
+msgid "Dots"
+msgstr ""
+
+msgctxt "settings_database"
+msgid "Change Braille Code"
+msgstr ""
+
+msgctxt "links"
+msgid ""
+"Made with love by Luke Needham ♥ \n"
+"If you have any problems, questions or suggestions, please send me an "
+"email: \n"
+"brailletutorapp@gmail.com \n"
+"\n"
+"Check out Brailliac's other apps! \n"
+"brailliac.com \n"
+"\n"
+"Follow Brailliac on Facebook: \n"
+"https://www.facebook.com/brailletutor"
+msgstr ""
+
+msgctxt "instructions"
+msgid "Swipe the keyboard"
+msgstr ""
+
+msgctxt "instructionsArrows"
+msgid ""
+"→ \n"
+"← \n"
+"↑ \n"
+"↓"
+msgstr ""
+
+msgctxt "instructionsText"
+msgid ""
+"to input \n"
+"to backspace \n"
+"to open settings \n"
+"to switch between Cell mode and Auto-translate mode"
+msgstr ""
+
+msgctxt "set_type_order_instructions"
+msgid ""
+"Drag the symbol types into the order in which they should be shown as "
+"predictions"
+msgstr ""
+
+msgctxt "first"
+msgid "First"
+msgstr ""
+
+msgctxt "last"
+msgid "Last"
+msgstr ""
+
+msgctxt "change_size"
+msgid "CHANGE SIZE"
+msgstr ""
+
+msgctxt "show_cell_as_prediction"
+msgid "Show cell as prediction"
+msgstr ""
+
+msgctxt "order_predictions_mode"
+msgid "Order predictions starting with:"
+msgstr ""
+
+msgctxt "change_prediction_ordering"
+msgid "CHANGE PREDICTION ORDERING"
+msgstr ""
+
+msgctxt "recto_verso_mode"
+msgid "Recto-verso mode"
+msgstr ""
+
+msgctxt "obey_braille_usage_rules"
+msgid "Obey Braille usage rules"
+msgstr ""
+
+msgctxt "auto_space_standalone"
+msgid "Automatically add a space after Standalone symbols"
+msgstr ""
+
+msgctxt "always_show_predictions"
+msgid "Always show predictions"
+msgstr ""
+
+msgctxt "back"
+msgid "back"
+msgstr ""
+
+msgctxt "setup_step_1"
+msgid "1 - Add Keyboard in Settings"
+msgstr ""
+
+msgctxt "setup_step_2"
+msgid "2 - Set current keyboard"
+msgstr ""
+
+msgctxt "autoFillBrailleMode:0"
+msgid "Simplest"
+msgstr ""
+
+msgctxt "autoFillBrailleMode:1"
+msgid "Most complex"
+msgstr ""
+
+msgctxt "autoFillBrailleMode:2"
+msgid "Longest"
+msgstr ""
+
+msgctxt "autoFillBrailleMode:3"
+msgid "Custom"
+msgstr ""
+

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+>
+
+	<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+
+		<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+			<LinearLayout android:id="@+id/buttonsLayout"
+						  android:layout_width="match_parent"
+						  android:layout_height="wrap_content"
+						  android:orientation="vertical"
+			>
+
+				<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+								android:layout_marginBottom="5dp"
+								android:layout_marginLeft="5dp"
+								android:layout_marginStart="5dp"
+								android:layout_marginTop="5dp">
+
+					<TextView android:id="@+id/instructions1" android:layout_width="wrap_content"
+							  android:layout_height="wrap_content"
+							  android:text="@string/instructions"
+					/>
+
+					<TextView android:id="@+id/instructions2" android:layout_width="wrap_content"
+							  android:layout_height="wrap_content"
+							  android:layout_marginLeft="2dp"
+							  android:layout_marginRight="2dp"
+							  android:layout_toRightOf="@id/instructions1"
+							  android:text="@string/instructionsArrows"
+					/>
+
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+							  android:layout_alignTop="@id/instructions2"
+							  android:layout_toRightOf="@id/instructions2"
+							  android:text="@string/instructionsText"
+					/>
+				</RelativeLayout>
+
+				<Button
+					android:id="@+id/setDatabaseButton"
+					style="@style/genericButton"
+					android:layout_marginBottom="15dp"
+					android:text="@string/settings_database"
+				/>
+
+				<Switch
+					android:id="@+id/alwaysShowPredictionsSwitch"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp" android:text="@string/always_show_predictions"
+					android:theme="@style/settingsOptionItemText"
+				/>
+
+				<Switch
+					android:id="@+id/cellAsPredictionSwitch"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp" android:text="@string/show_cell_as_prediction"
+					android:theme="@style/settingsOptionItemText"
+				/>
+
+				<Button android:id="@+id/changeSizeButton"
+						style="@style/genericButton"
+						android:layout_marginBottom="15dp"
+						android:text="@string/change_size"
+				/>
+
+				<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+							  android:layout_marginBottom="15dp"
+							  android:gravity="center_vertical"
+							  android:orientation="horizontal"
+				>
+
+					<TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+							  android:layout_marginLeft="10dp"
+							  android:gravity="center_vertical"
+							  android:text="@string/order_predictions_mode"
+							  android:theme="@style/settingsOptionItemText"
+					/>
+
+					<Spinner android:id="@+id/autoFillTranslationMode"
+							 android:layout_width="wrap_content"
+							 android:layout_height="wrap_content"
+							 android:layout_marginLeft="10dp"
+							 android:text="@style/settingsOptionItemText"
+					/>
+
+				</LinearLayout>
+
+				<Button android:id="@+id/setPredictionTypeOrderButton"
+						style="@style/genericButton"
+						android:layout_marginBottom="15dp"
+						android:text="@string/change_prediction_ordering"
+						android:visibility="gone"
+				/>
+
+
+
+
+				<Switch
+					android:id="@+id/setRectoVersoSwitch"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp" android:text="@string/recto_verso_mode"
+					android:theme="@style/settingsOptionItemText"
+				/>
+
+				<Switch
+					android:id="@+id/obeyBrailleSymbolRules"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp" android:text="@string/obey_braille_usage_rules"
+					android:theme="@style/settingsOptionItemText"
+				/>
+
+				<Switch
+					android:id="@+id/autoinsertSpaceStandalone"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp" android:text="@string/auto_space_standalone"
+					android:theme="@style/settingsOptionItemText"
+				/>
+
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+						  android:layout_alignParentBottom="true"
+						  android:layout_below="@+id/buttonsLayout"
+						  android:layout_marginBottom="5dp"
+						  android:layout_marginTop="10dp"
+						  android:orientation="vertical"
+			>
+
+				<TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+						  android:layout_marginLeft="10dp"
+						  android:layout_marginRight="10dp"
+						  android:autoLink="web|email"
+						  android:gravity="center"
+						  android:text="@string/links"
+				/>
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+</FrameLayout>

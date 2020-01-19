@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:orientation="vertical"
+			  android:paddingBottom="@dimen/set_type_order_item_vertical_margin"
+			  android:paddingTop="@dimen/set_type_order_item_vertical_margin"
+>
+
+	<TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+			  android:gravity="center"
+			  android:padding="10dp"
+			  android:text="@string/set_type_order_instructions"
+			  android:textSize="15sp"/>
+
+	<android.support.constraint.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+		<android.support.v7.widget.RecyclerView android:id="@+id/typePriorityRecyclerView"
+			app:layout_constraintTop_toTopOf="parent"
+												android:layout_width="0dp"
+												android:layout_height="360dp"
+												android:fadeScrollbars="false"
+												android:scrollbars="vertical"
+												android:layout_marginRight="15dp"
+												app:layout_constraintEnd_toStartOf="@+id/descriptionArrowLayout"
+												app:layout_constraintStart_toStartOf="parent"/>
+
+		<LinearLayout android:id="@+id/descriptionArrowLayout"
+					  android:layout_width="40dp"
+					  android:layout_height="0dp"
+					  android:layout_marginRight="10dp"
+					  android:layout_marginTop="5dp"
+					  android:layout_marginBottom="5dp"
+					  android:orientation="vertical"
+					  android:gravity="center_horizontal"
+					  app:layout_constraintBottom_toBottomOf="@+id/typePriorityRecyclerView"
+					  app:layout_constraintEnd_toEndOf="parent"
+					  app:layout_constraintTop_toTopOf="@+id/typePriorityRecyclerView">
+
+			<TextView android:layout_width="match_parent"
+					  android:layout_height="wrap_content"
+					  android:gravity="center"
+					  android:text="@string/first"
+					  android:textColor="@color/textColorTertiary"
+					  android:textSize="20sp"
+			/>
+
+			<ImageView android:layout_width="30dp"
+					   android:layout_height="0dp"
+					   android:layout_weight="1"
+					   android:padding="5dp"
+					   android:layout_marginTop="10dp"
+					   android:layout_marginBottom="10dp"
+					   android:tint="@color/textColorTertiary"
+					   android:scaleType="fitXY"
+					   android:src="@drawable/type_order_arrow"
+			/>
+
+			<TextView android:layout_width="match_parent"
+					  android:layout_height="wrap_content"
+					  android:gravity="center"
+					  android:text="@string/last"
+					  android:textColor="@color/textColorTertiary"
+					  android:textSize="20sp"
+			/>
+
+		</LinearLayout>
+
+	</android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>
