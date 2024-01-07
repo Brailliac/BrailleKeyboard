@@ -1,7 +1,7 @@
 package com.lukeneedham.braillekeyboard
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
+import androidx.fragment.app.Fragment
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -35,7 +35,7 @@ class BrailleIMESettings_HomeFragment : Fragment()
                 prefsRepo.dictionaryTypesTranslationPriority = getDefaultDictionaryTypes(newSymbolDatabase, view.context)
             }
 
-            dialog.show(fragmentManager, "")
+            dialog.show(parentFragmentManager, "")
         }
 
         setupSwitch(view.findViewById(R.id.alwaysShowPredictionsSwitch), ALWAYS_SHOW_PREDICTIONS_MODE, ALWAYS_SHOW_PREDICTIONS_MODE_DEFAULT)
@@ -74,7 +74,7 @@ class BrailleIMESettings_HomeFragment : Fragment()
         }
 
         setPredictionTypeOrderButton.setOnClickListener {
-            SetTypeOrderDialog().show(fragmentManager, "SetTypeOrderDialog")
+            SetTypeOrderDialog().show(parentFragmentManager, "SetTypeOrderDialog")
         }
 
         (activity as HasToolbar).showToolbar()

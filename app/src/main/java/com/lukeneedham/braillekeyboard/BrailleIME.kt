@@ -10,7 +10,7 @@ import com.lukeneedham.braillekeyboard.braillekeyboardview.BrailleKeyboardLatin
 import com.lukeneedham.braillekeyboard.braillekeyboardview.BrailleKeyboardType
 import com.lukeneedham.braillekeyboard.braillekeyboardview.OnSwipeTouchListener
 import kotlinx.android.synthetic.main.braillekeyboard_latin.view.*
-import android.support.v4.content.ContextCompat.startActivity
+import androidx.core.content.ContextCompat.startActivity
 import android.content.Intent
 import com.lukeneedham.braillekeyboard.Util.*
 import android.view.Display

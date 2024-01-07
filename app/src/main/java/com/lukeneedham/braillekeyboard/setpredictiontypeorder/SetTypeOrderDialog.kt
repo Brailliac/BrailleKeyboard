@@ -1,10 +1,10 @@
 package com.lukeneedham.braillekeyboard.setpredictiontypeorder
 
 import android.os.Bundle
-import android.support.v4.app.DialogFragment
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
-import android.support.v7.widget.helper.ItemTouchHelper
+import androidx.fragment.app.DialogFragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.ItemTouchHelper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -30,7 +30,8 @@ class SetTypeOrderDialog : DialogFragment()
         val recyclerAdapter = SetTypeOrderRecyclerAdapter(dictTypes)
         typePriorityRecyclerView.addItemDecoration(SetTypeOrderItemDecoration())
         typePriorityRecyclerView.adapter = recyclerAdapter
-        typePriorityRecyclerView.layoutManager = LinearLayoutManager(context)
+        typePriorityRecyclerView.layoutManager =
+            LinearLayoutManager(context)
 
         val itemTouchHelper = ItemTouchHelper(object : ItemTouchHelper.Callback()
         {

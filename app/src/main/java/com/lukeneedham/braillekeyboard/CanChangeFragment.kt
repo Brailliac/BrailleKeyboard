@@ -1,6 +1,6 @@
 package com.lukeneedham.braillekeyboard
 
-import android.support.v4.app.Fragment
+import androidx.fragment.app.Fragment
 
 /**
  * Created by Luke on 01/08/2018.

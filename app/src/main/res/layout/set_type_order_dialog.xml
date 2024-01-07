@@ -14,9 +14,9 @@
 			  android:text="@string/set_type_order_instructions"
 			  android:textSize="15sp"/>
 
-	<android.support.constraint.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+	<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
 
-		<android.support.v7.widget.RecyclerView android:id="@+id/typePriorityRecyclerView"
+		<androidx.recyclerview.widget.RecyclerView android:id="@+id/typePriorityRecyclerView"
 			app:layout_constraintTop_toTopOf="parent"
 												android:layout_width="0dp"
 												android:layout_height="360dp"
@@ -67,7 +67,7 @@
 
 		</LinearLayout>
 
-	</android.support.constraint.ConstraintLayout>
+	</androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </LinearLayout>
