@@ -54,7 +54,7 @@ class BrailleIMESettings_HomeFragment : Fragment()
 
 
         val autoFillSpinner = view.findViewById<Spinner>(R.id.autoFillTranslationMode)
-        val autoFillModeAdapter = ArrayAdapter.createFromResource(context, R.array.autoFillBrailleMode, R.layout.spinner_item_switch_text)
+        val autoFillModeAdapter = ArrayAdapter.createFromResource(requireContext(), R.array.autoFillBrailleMode, R.layout.spinner_item_switch_text)
         autoFillModeAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         autoFillSpinner.adapter = autoFillModeAdapter
 
