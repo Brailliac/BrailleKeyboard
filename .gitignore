@@ -8,4 +8,5 @@
 /captures
 .externalNativeBuild
 app/release/app.aab
+app/release/app-release.aab
 keystore.properties
