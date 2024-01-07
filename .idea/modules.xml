@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-BrailleKeyboard.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-BrailleKeyboard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BrailleKeyboard.iml" filepath="$PROJECT_DIR$/BrailleKeyboard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/BrailleKeyboard-app.iml" filepath="$PROJECT_DIR$/app/BrailleKeyboard-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BrailleKeyboard.iml" filepath="$PROJECT_DIR$/.idea/modules/BrailleKeyboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BrailleKeyboard.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BrailleKeyboard.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BrailleKeyboard.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BrailleKeyboard.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BrailleKeyboard.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BrailleKeyboard.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BrailleKeyboard.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BrailleKeyboard.app.unitTest.iml" />
     </modules>
   </component>
 </project>
