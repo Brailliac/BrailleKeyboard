@@ -1,0 +1,17 @@
+Practise your Braille skills while doing anything from texting your friends, searching the web, or writing essays!
+
+Just a few of the amazing features:
+- Braille Cell Mode - for typing cells directly
+- Translated Mode - in-built AI automatically converts your typed cells to the letters they represent in your chosen Braille code
+- Fully compatible with all Braille symbols and modes, including capitals, numbers, contractions, and shortforms
+- Highly customisable - choose the size of your keyboard exactly
+- Intuative motion controls
+- Private and safe - Has no Internet permissions, so you don't have to worry about snooping
+
+Includes all the following Braille codes:
+- Unified English Braille
+- Swedish Braille
+- Czech Braille
+- Slovak Braille
+- Tamil Braille
+- Spanish Braille
