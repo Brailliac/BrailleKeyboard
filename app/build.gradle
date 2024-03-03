@@ -34,7 +34,8 @@ dependencies {
     implementation('androidx.appcompat:appcompat:1.6.1')
     implementation('androidx.constraintlayout:constraintlayout:2.1.4')
     implementation('androidx.cardview:cardview:1.0.0')
-    implementation("com.google.code.gson:gson:2.8.9")
+    implementation("com.google.code.gson:gson:2.10")
     implementation('androidx.recyclerview:recyclerview:1.3.2')
-    implementation("com.github.brailliac:brailledatabase-kotlin:1.0.7")
+    //implementation('com.lukeneedham.brailledatabase:library:1.0.16')
+    implementation 'com.github.VirtuallyUnderstandable:VUKeys-Database:1.0.26'
 }

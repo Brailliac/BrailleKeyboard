@@ -5,6 +5,7 @@ import android.util.AttributeSet;
 import android.widget.LinearLayout;
 
 import com.lukeneedham.brailledatabase.Braille.BrailleCell;
+import com.lukeneedham.brailledatabase.Braille.BrailleCellDatabase;
 import com.lukeneedham.braillekeyboard.R;
 
 /**
@@ -37,10 +38,6 @@ public abstract class BrailleKeyboardType extends LinearLayout
 		return findViewById(R.id.keyboard);
 	}
 
-	public BrailleCell getInput()
-	{
-		return getBrailleGrid().getInput();
-	}
 
 	public BrailleGridView getBrailleGrid()
 	{

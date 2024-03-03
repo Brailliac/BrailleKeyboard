@@ -1,5 +1,7 @@
 package com.lukeneedham.braillekeyboard.braillekeyboardview;
 
+import static java.sql.DriverManager.println;
+
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -7,6 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.lukeneedham.brailledatabase.Braille.BrailleCell;
+import com.lukeneedham.brailledatabase.Braille.BrailleCellDatabase;
 import com.lukeneedham.braillekeyboard.R;
 
 /**
@@ -74,10 +77,6 @@ public class BrailleKeyboard extends LinearLayout
 		getBrailleGrid().setRectoVerso(b);
 	}
 
-	public BrailleCell getInput()
-	{
-		return getBrailleGrid().getInput();
-	}
 
 	public BrailleGridView getBrailleGrid()
 	{

@@ -1,10 +1,12 @@
 package com.lukeneedham.braillekeyboard
 
 import android.text.TextUtils
+import android.util.Log
 import android.view.View
 import com.lukeneedham.brailledatabase.Braille.BrailleCellDatabase
 import com.lukeneedham.brailledatabase.Braille.SymbolDatabases.BrailleDatabase.Companion.BLANK_BRAILLE_SYMBOL
 import com.lukeneedham.braillekeyboard.braillekeyboardview.BrailleKeyboardCells
+import java.sql.DriverManager
 
 /**
  * Created by Luke on 06/06/2018.
@@ -59,13 +61,14 @@ class BrailleIMECells(service: BrailleIMEService) : BrailleIME(service)
     {
         val currentCell = keyboard.brailleGrid.input
 
+
         if(currentCell == BrailleCellDatabase.CellEmpty)
         {
             clearComposingText()
         }
         else
         {
-            val letter = "" + currentCell.unicodeCellSymbol
+            val letter = "" + currentCell.toString()
             updateComposingText(letter)
         }
     }

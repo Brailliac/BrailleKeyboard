@@ -17,7 +17,7 @@ class BrailleIMELatin(service: BrailleIMEService) : BrailleIME(service)
 {
     private val symbolDatabase: BrailleDatabase
 
-    private var currentCell = BrailleCellDatabase.CellEmpty
+    private val currentCell
         get() = keyboard.brailleGrid.input
 
     private val brailleSymbolsInWord = BrailleSymbolTranslation()

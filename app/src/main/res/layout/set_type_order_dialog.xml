@@ -52,7 +52,6 @@
 					   android:padding="5dp"
 					   android:layout_marginTop="10dp"
 					   android:layout_marginBottom="10dp"
-					   android:tint="@color/textColorTertiary"
 					   android:scaleType="fitXY"
 					   android:src="@drawable/type_order_arrow"
 			/>
